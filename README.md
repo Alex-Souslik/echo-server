@@ -5,7 +5,7 @@ Full deployment of a basic FastAPI server on EKS with Terraform and Helm
 
 1. Setup AWS Cli & install Terraform
 2. Create EKS cluster by running `terraform init && terrafom apply` inside the `terraform-eks` folder.
-3. Deploy echo-server bt running `helm install echo-server .` inside chart folder.
+3. Deploy echo-server bt running `helm install echo-server .` inside `chart` folder.
 
 ## Notes
 
