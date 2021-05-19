@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: echo-server-container
-        image: {{default "echo-server:latest" .Values.image}}
+        image: {{default "alex0/echo-server:latest" .Values.image}}
         ports:
         - containerPort: {{ default 80 .Values.port }}
